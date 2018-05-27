@@ -1,0 +1,29 @@
+{
+  "name": "stomping-grounds",
+  "version": "1.0.0",
+  "description":
+    "The unofficial website of Stomping Grounds Cafe in Ames, IA",
+  "main": "index.js",
+  "repository": "https://github.com/qsalas/stomping-grounds.git",
+  "author": "qmsalas <qmsalas@iastate.edu>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html/"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "parcel-bundler": "^1.8.1"
+  }
+}
