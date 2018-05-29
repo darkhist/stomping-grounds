@@ -1,6 +1,13 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-const App = () => <div>Hello World</div>;
+import Navigation from './navigation';
 
-render(<App />, document.getElementById('app'));
+const App = () => (
+  <div>
+    <Navigation />
+  </div>
+);
+
+ReactDOM.render(<App />, document.querySelector('.container'));
