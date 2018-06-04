@@ -12,6 +12,7 @@
     "build": "parcel build ./src/index.html/"
   },
   "dependencies": {
+    "bootstrap": "^4.1.1",
     "eslint": "^4.19.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
