@@ -17,7 +17,7 @@ class Navigation extends Component {
             <li>
               <a href="/menu"> menu </a>
             </li>
-            <li class="title"> Stomping Grounds </li>
+            <li className="title"> Stomping Grounds </li>
           </ul>
         </nav>
       </div>
