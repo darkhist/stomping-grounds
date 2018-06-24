@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+.wrapper {
+  display: grid;
+  gap: 20px;
+}
+
+.menu ul {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+  list-style: none;
+  align-items: center;
+}
+
+.menu a {
+  color: black;
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  grid-column: 8 / span 4;
+  text-align: center;
+  text-transform: uppercase;
+}
