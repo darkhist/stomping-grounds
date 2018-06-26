@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import './navigation.scss';
+import './home.scss';
 
-class Navigation extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -25,4 +25,4 @@ class Navigation extends Component {
   }
 }
 
-export default Navigation;
+export default Home;

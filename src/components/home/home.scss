@@ -1,0 +1,35 @@
+.wrapper {
+  display: grid;
+  gap: 20px;
+}
+
+.menu {
+  ul {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+    list-style: none;
+    align-items: center;
+  }
+  a {
+    color: black;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: rgb(180, 180, 180);
+  }
+}
+
+.title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  grid-column: 8 / 14;
+  text-align: center;
+  text-transform: uppercase;
+}
