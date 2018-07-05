@@ -7,25 +7,44 @@
   "author": "qmsalas <qmsalas@iastate.edu>",
   "license": "MIT",
   "private": true,
-  "scripts": {
-    "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html/"
-  },
   "dependencies": {
-    "eslint": "^4.19.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.2.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2",
+    "husky": "^0.14.3",
     "jest": "^23.1.0",
     "node-sass": "^4.9.0",
+    "npm-run-all": "^4.1.3",
     "parcel-bundler": "^1.8.1"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html/",
+    "lint": "eslint --ext .jsx,.js src/",
+    "test": "jest",
+    "precommit": "npm-run-all --parallel test lint"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "<rootDir>/mocks/styleMock.js"
+    },
+    "setupTestFrameworkScriptFile": "<rootDir>/config/testConfig.js",
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      "^.+\\.jsx$": "babel-jest"
+    }
   }
 }

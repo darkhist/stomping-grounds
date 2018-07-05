@@ -1,5 +1,13 @@
+# dependencies
 node_modules
+
+# build files 
 dist
 .cache
+
+# misc
 package-lock.json
 yarn-error.log
+
+# style mocks (added to fix jest issue)
+mocks

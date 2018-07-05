@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './menu.scss';
 
-class Menu extends Component {
-  render() {
-    return <div> Menu ! </div>;
-  }
-}
+const Menu = () => <div> Menu ! </div>;
 
 export default Menu;
