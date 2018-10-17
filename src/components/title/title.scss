@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  margin: 1em;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.menu {
+  ul {
+    display: inline;
+    list-style: none;
+  }
+
+  a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+  }
+}
