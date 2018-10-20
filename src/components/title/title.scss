@@ -5,7 +5,6 @@
 }
 
 .title {
-  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
@@ -22,12 +21,11 @@
   li {
     display: inline;
     padding: .5em;
-  }
 
-  a {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    text-decoration: none;
+    a {
+      color: black;
+      font-size: 14px;
+      text-decoration: none;
+    }
   }
 }

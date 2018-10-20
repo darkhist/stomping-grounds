@@ -1,0 +1,14 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+  padding: 1em;
+  text-align: center;
+  margin: auto;
+
+  h4 {
+    font-weight: bold;
+  }
+}
