@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './title.scss';
-// import '../../../assets/Menu.pdf';
+import menu from '../../../assets/Menu.pdf';
 
 const Title = () => (
   <div className="wrapper">
@@ -13,7 +13,7 @@ const Title = () => (
         </li>
 
         <li>
-          <a href="/menu" target="_blank" rel="noopener noreferrer">
+          <a href={menu} target="_blank" rel="noopener noreferrer">
             menu
           </a>
         </li>
