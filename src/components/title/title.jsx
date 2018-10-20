@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './title.scss';
+
 import menu from '../../../assets/Menu.pdf';
 
 const Title = () => (
