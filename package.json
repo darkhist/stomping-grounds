@@ -35,7 +35,7 @@
     "build": "parcel build ./src/index.html/",
     "lint": "eslint --ext .jsx,.js src/",
     "test": "jest",
-    "precommit": "npm-run-all --parallel test lint"
+    "precommit": "yarn run lint"
   },
   "jest": {
     "moduleNameMapper": {
