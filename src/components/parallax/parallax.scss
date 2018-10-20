@@ -1,0 +1,10 @@
+.parallax {
+  display: grid;
+  grid-template-columns: 12fr;
+  background-image: url('../../../assets/coffee-one.jpeg');
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
