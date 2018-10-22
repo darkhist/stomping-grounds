@@ -2,7 +2,7 @@ import React from 'react';
 
 import './title.scss';
 
-import menu from '../../../assets/Menu.pdf';
+import menu from '../../../assets/menu.pdf';
 
 const Title = () => (
   <div className="wrapper">
