@@ -13,9 +13,12 @@
   "plugins": ["jsx-a11y", "react"],
   "rules": {
     "comma-dangle": "off",
+    "function-paren-newline": "off",
     "import/no-extraneous-dependencies": [
       "error",
-      { "devDependencies": true }
+      {
+        "devDependencies": true
+      }
     ]
   }
 }

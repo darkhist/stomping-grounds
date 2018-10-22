@@ -6,6 +6,7 @@ import Parallax from './parallax/parallax';
 import About from './about/about';
 import Feed from './feed/feed';
 import Map from './map/map';
+import Footer from './footer/footer';
 
 const App = () => (
   <div>
@@ -14,6 +15,7 @@ const App = () => (
     <About />
     <Feed />
     <Map />
+    <Footer />
   </div>
 );
 
