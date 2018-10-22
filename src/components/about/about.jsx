@@ -3,9 +3,12 @@ import React from 'react';
 import './about.scss';
 
 const About = () => (
-  <div className="about">
-    <div className="grid-item">
-      <h4>Location</h4>
+  <div className="about" id="about">
+    <h4 className="heading"> Location </h4>
+    <h4 className="heading"> Hours </h4>
+    <h4 className="heading"> Contact </h4>
+
+    <div className="about-content">
       <p>
         303 Welch Avenue
         <br />
@@ -13,8 +16,7 @@ const About = () => (
       </p>
     </div>
 
-    <div className="grid-item">
-      <h4>Hours</h4>
+    <div className="about-content">
       <p>
         Monday – Friday | 7AM – 11PM
         <br />
@@ -22,8 +24,7 @@ const About = () => (
       </p>
     </div>
 
-    <div className="grid-item">
-      <h4>Contact</h4>
+    <div className="about-content">
       <p>515-292-5258</p>
     </div>
   </div>

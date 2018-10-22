@@ -1,14 +1,24 @@
 .about {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "heading heading heading"
+    "content content content";
+  margin: 2em;
 }
 
-.grid-item {
-  padding: 1em;
-  text-align: center;
+.heading,
+.about-content {
   margin: auto;
+  padding: .5em;
+  text-align: center;
+}
 
-  h4 {
-    font-weight: bold;
-  }
+.heading {
+  grid-area: 'heading';
+}
+
+.about-content {
+  grid-area: 'content';
 }

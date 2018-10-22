@@ -10,7 +10,7 @@ const Title = () => (
     <nav className="menu" aria-label="navigation">
       <ul>
         <li>
-          <a href="/about">about</a>
+          <a href="#about">about</a>
         </li>
 
         <li>
