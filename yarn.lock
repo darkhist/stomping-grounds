@@ -5286,6 +5286,12 @@ react-router@^4.2.0:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
+react-scrollchor@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/react-scrollchor/-/react-scrollchor-6.0.0.tgz#7c2545e743355c0069f4c6a5ab4f9d9875182b4d"
+  dependencies:
+    requestanimationframe-timer "1.x.x"
+
 react-test-renderer@^16.0.0-0:
   version "16.4.1"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.4.1.tgz#f2fb30c2c7b517db6e5b10ed20bb6b0a7ccd8d70"
@@ -5538,6 +5544,12 @@ request@~2.79.0:
     tough-cookie "~2.3.0"
     tunnel-agent "~0.4.1"
     uuid "^3.0.0"
+
+requestanimationframe-timer@1.x.x:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/requestanimationframe-timer/-/requestanimationframe-timer-1.0.4.tgz#3b48fe55f4359f07c54745caec7437e2532f89d8"
+  dependencies:
+    raf "^3.4.0"
 
 require-directory@^2.1.1:
   version "2.1.1"

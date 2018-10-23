@@ -1,4 +1,5 @@
 import React from 'react';
+import Scrollchor from 'react-scrollchor';
 
 import './title.scss';
 
@@ -10,7 +11,15 @@ const Title = () => (
     <nav className="menu" aria-label="navigation">
       <ul>
         <li>
-          <a href="#about">about</a>
+          <Scrollchor
+            to="about"
+            animate={{
+              offset: -25,
+              duration: 500
+            }}
+          >
+            about
+          </Scrollchor>
         </li>
 
         <li>
