@@ -3,7 +3,7 @@ import Scrollchor from 'react-scrollchor';
 
 import './title.scss';
 
-import menu from '../../../assets/menu.pdf';
+import menu from '../../../assets/Menu.pdf';
 
 const Title = () => (
   <div className="wrapper">
