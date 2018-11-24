@@ -1,0 +1,12 @@
+.bg {
+  height: 415px;
+  width: 100%;
+  margin: 0 0 1em 0;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    min-height: 615px;
+  }
+}
