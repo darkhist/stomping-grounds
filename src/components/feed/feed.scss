@@ -1,11 +1,21 @@
 .feed {
   display: grid;
-  grid-template-columns: repeat(3, 4fr);
-  grid-gap: 3em;
-  margin: 0 2em 2em 2em;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1em;
+  margin: -1em 1em;
+  
+  img {
+    height: auto;
+    width: 100%;
+  }
 }
 
-.grid-img {
-  height: auto;
-  width: 100%;
+@media screen and (min-width: 768px) {
+  .feed {
+    grid-template-columns: repeat(4, 3fr);
+    grid-template-rows: 1fr;
+    grid-gap: 2em;
+    margin: 0 2em 3em;
+  }
 }

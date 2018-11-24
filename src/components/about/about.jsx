@@ -4,11 +4,8 @@ import './about.scss';
 
 const About = () => (
   <div className="about" id="about">
-    <h4 className="heading"> Location </h4>
-    <h4 className="heading"> Hours </h4>
-    <h4 className="heading"> Contact </h4>
-
-    <div className="about-content">
+    <div className="location">
+      <div className="subtitle"> Location </div>
       <p>
         303 Welch Avenue
         <br />
@@ -16,7 +13,8 @@ const About = () => (
       </p>
     </div>
 
-    <div className="about-content">
+    <div className="hours">
+      <div className="subtitle"> Hours </div>
       <p>
         Monday – Friday | 7AM – 11PM
         <br />
@@ -24,7 +22,9 @@ const About = () => (
       </p>
     </div>
 
-    <div className="about-content">
+
+    <div className="contact">
+      <div className="subtitle"> Contact </div>
       <p>515-292-5258</p>
     </div>
   </div>
