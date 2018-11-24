@@ -3,7 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 1em;
-  margin: -1em 1em;
+  margin: 0em 1em;
   
   img {
     height: auto;
@@ -15,7 +15,7 @@
   .feed {
     grid-template-columns: repeat(4, 3fr);
     grid-template-rows: 1fr;
-    grid-gap: 2em;
-    margin: 0 2em 3em;
+    grid-gap: 1em;
+    margin: 0 2em 2em;
   }
 }

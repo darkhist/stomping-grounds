@@ -1,14 +1,11 @@
 # Stomping Grounds Cafe
 
-Hey there!
+Hey there 👋🏼
 
 This repository is home to the unofficial website for Stomping Grounds Cafe in Ames, IA!
 
-This project is currently being developed with:
+This project was built with:
 
 * [React ⚛️](https://reactjs.org/)
+* [Sass 💁🏼‍](https://sass-lang.com/)
 * [Parcel 📦](https://parceljs.org/)
-
-## Contributing
-
-Please check back later for a contributing guide ✨

@@ -1,17 +1,16 @@
 .parallax {
-  display: grid;
-  grid-template-columns: 12fr;
-  background-image: url('../../../assets/latte.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 415px;
+  width: 100%;
   margin: 1em 0;
-  min-height: 485px;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
   .parallax {
+    background-image: url('../../../assets/latte.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
     min-height: 615px;
   }
 }

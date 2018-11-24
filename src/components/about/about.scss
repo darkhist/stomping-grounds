@@ -3,7 +3,6 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "l" "h" "c";
-  margin: 1em 0;
   text-align: center;
 
   .location { grid-area: 'l'; }

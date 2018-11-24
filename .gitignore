@@ -11,6 +11,3 @@ yarn-error.log
 
 # style mocks (added to fix jest issue)
 mocks
-
-# env 
-.env
