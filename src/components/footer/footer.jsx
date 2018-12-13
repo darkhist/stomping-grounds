@@ -3,7 +3,7 @@ import React from 'react';
 import './footer.scss';
 
 const Footer = () => (
-  <footer className="footer">
+  <footer className="footer" role="contentinfo">
     <p className="copywright"> &copy; Stomping Grounds Cafe </p>
     <div className="info">
       <p>
