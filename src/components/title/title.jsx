@@ -6,8 +6,8 @@ import './title.scss';
 import menu from '../../../assets/Menu.pdf';
 
 const Title = () => (
-  <div className="wrapper">
-    <div className="title">Stomping Grounds Cafe</div>
+  <header className="wrapper">
+    <h1 className="title">Stomping Grounds Cafe</h1>
     <nav className="menu" aria-label="navigation">
       <ul>
         <li>
@@ -35,7 +35,7 @@ const Title = () => (
         </li>
       </ul>
     </nav>
-  </div>
+  </header>
 );
 
 export default Title;

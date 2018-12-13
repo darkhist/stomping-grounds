@@ -3,7 +3,7 @@ import React from 'react';
 import './about.scss';
 
 const About = () => (
-  <div className="about" id="about">
+  <main className="about" id="about">
     <div className="location">
       <div className="subtitle"> Location </div>
       <p>
@@ -27,7 +27,7 @@ const About = () => (
       <div className="subtitle"> Contact </div>
       <p>515-292-5258</p>
     </div>
-  </div>
+  </main>
 );
 
 export default About;
