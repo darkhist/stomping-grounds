@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-jest": "^23.2.0",
+    "babel-jest": "^24.9.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.3.0",
@@ -25,10 +25,10 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2",
-    "husky": "^0.14.3",
-    "jest": "^23.1.0",
+    "husky": "^3.0.4",
+    "jest": "^24.9.0",
     "node-sass": "^4.9.0",
-    "parcel-bundler": "^1.8.1",
+    "parcel-bundler": "^1.12.3",
     "react-scrollchor": "^6.0.0"
   },
   "scripts": {
