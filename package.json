@@ -34,9 +34,12 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build ./src/index.html/",
-    "lint": "eslint --ext .jsx,.js src/",
-    "test": "jest",
-    "precommit": "yarn run lint"
+    "lint": "eslint --ext .jsx,.js src/"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
   },
   "jest": {
     "moduleNameMapper": {
